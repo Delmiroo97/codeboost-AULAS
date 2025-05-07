@@ -1,0 +1,35 @@
+.s-recursos {
+    padding-top: 8rem;
+    .container {
+        .top {
+            @include flexCenterJustify;
+            margin-bottom: 8rem; 
+
+            h3 {
+                font-size: 4rem;
+                max-width: 69.5rem;
+            }
+
+            p {
+                font-size: 1.6rem;
+                line-height: 150%;
+            }
+        }
+    }
+} 
+
+.all {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 0.1rem solid rgba(255, 255, 255, 0.10);
+        padding-bottom: 11.1rem;
+}
+    // border-bottom: 0.1rem solid rgba(255, 255, 255, 0.10);
+//     .container {
+//         display: flex;
+//         align-items: flex-start;
+//         justify-content: space-between;
+//         padding-bottom: 11.1rem;
+//     }
+// 
