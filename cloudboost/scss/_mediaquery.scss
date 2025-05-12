@@ -1,108 +1,115 @@
-header {
-
-    @include responsivo ('mobile') {
-        .container {
-            .content-header {
-             padding: 2rem 2.5rem;
-             .left-content {
+@include responsivo('mobile') {
+    header {
+        .content-header {
+            padding: 1.2rem 2.5rem;
+           .logo {
+            img {
+                max-width: 13.5rem;
+            }
+           }
+            .left-content {
                 display: none;
-             }
+            }
+            .btn-mobile {
+                display: block;
+            }
+        }
+    }
+
+    .s-hero {
+        padding-top: 4rem;
+        .container {
+            .hero-content {
+                display: flex;
+                flex-direction: column;
+                .left {
+                    h1 {
+                        max-width: 363px;
+                        text-align: center;
+                        font-size: 3.5rem;
+                    }
+
+                    p {
+                        font-size: 1.4rem;
+                    }
+
+                    .form-email {
+                        justify-content: space-between;
+                        input {
+                            max-width: 15rem;
+                            &::placeholder {
+                                font-size: 1.4rem;
+                            }
+                        }
+                        .btn-primary {
+                            padding: 1.2rem 2rem;
+                            font-size: 1.4rem;
+                        }
+                    }
+
+                    div {
+                        img {
+                            display: block;
+                        }
+                    }
+                }
+                ul {
+
+                    img {
+                        display: block;
+                        max-width: 36.9rem;
+                        margin: 4rem 0;
+                    }
+                }
+                .review {
+                    width: 100%;
+                    max-width: 29rem;
+                    margin: 0 auto;
+                    margin-top: 2rem;
+                }
+
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .s-recursos {
+        .container {
+            .top {
+                display: flex;
+                flex-direction: column;  
+                h3 {
+                    margin-top: 22rem;
+                    font-size: 2.8rem;
+                    text-align: center;
+                }
+                p {
+                    font-size: 1.4rem;
+                    margin-top: 3rem;
+                }
+            }
+        }
+    }
+
+    .all {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 4rem;
+        .card-recurso {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // margin: 0 auto;
+            .text {
+                text-align: center;
             }
         }
     }
 }
-
-.hero-content {
-    @include responsivo('mobile') {
-        display: flex;
-        flex-direction: column;
-        .left {
-                display: flex;
-                flex-direction: column;
-                ul {
-                    margin: 4rem auto;
-                    img {
-                            display: block;
-                            margin-bottom: 2rem;
-                        }
-                }
-        }
-    }
-
-        // .left {
-
-        //     @include responsivo('mobile') {
-        //         display: flex;
-        //         flex-direction: column;
-        //         ul {
-        //             img {
-        //                     display: block;
-        //                 }
-        //             }
-        //     }
-
-        // }
-
-        .review {
-            @include responsivo('mobile') {
-                margin: 0 auto;
-                img {
-                    display: block;
-                }
-            }
-        }
-
-        img {
-            @include responsivo('mobile') {
-                display: none;
-            }
-         }
-    }
-
-    .s-recursos {
-        @include responsivo('mobile') {
-            margin-top: 55rem;
-
-            .container {
-                .top {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 3rem;
-                    margin-bottom: 0;
-                    h3 {
-                        text-align: center;
-                        font-size: 2.3rem;
-                    }
-                }
-
-                .all {
-                    width: 100%;
-                    align-items: center;
-                    display: flex;
-                    flex-direction: column;
-
-                    .card-recurso {
-                        width: 100%;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        margin-top: 4rem;
-
-                        .text {
-                            h6 {
-                                text-align: center;
-                                font-size: 2rem;
-                            }
-                            p {
-                                text-align: center;
-                                max-width: 24rem;
-                                font-size: 1.8rem;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    
