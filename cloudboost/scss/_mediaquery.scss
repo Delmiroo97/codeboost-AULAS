@@ -112,4 +112,23 @@
             }
         }
     }
+
+    .s-marketing  {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        .container {
+            .box {
+                    padding: 7rem 1.5rem;
+                    height: auto;
+                    background-size: contain;
+                h2 {
+                    font-size: 3.2rem;
+                }
+
+                p {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
 }
