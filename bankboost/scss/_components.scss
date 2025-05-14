@@ -5,6 +5,10 @@
     color: $gray-100;
     font-weight: 600;
     padding: 1.1rem 2.4rem;
+    transition: .3s ease;
+     &:hover {
+        opacity: 0.7;
+     }
 }
 
 .btn-primary {
@@ -23,14 +27,14 @@
     }
 }
 
-body {
-    width: 100%;
-    background: #302f2f;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 10rem;
-}
+// body {
+//     width: 100%;
+//     background: #302f2f;
+//     color: #ffffff;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     gap: 2rem;
+//     margin-top: 10rem;
+// }
