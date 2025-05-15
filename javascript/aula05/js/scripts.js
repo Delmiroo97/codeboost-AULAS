@@ -1,6 +1,6 @@
 // Condicional if e else 
 
-let apostei = false; 
+let apostei = true; 
 
 if(apostei) {
     console.log('Apostei que o flamengo ganha da LDU hoje!')

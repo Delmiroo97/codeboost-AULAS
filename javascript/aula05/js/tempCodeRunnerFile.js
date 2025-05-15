@@ -1,11 +1,7 @@
-let folga = false;
+let apostei = false; 
 
-let semFolga = false; 
-
-if(semFolga) {
-    console.log('Ele vai trabalhar amanhã')
-} else if (folga) {
-    console.log('Ele está fora de escala amanhã')
+if(apostei) {
+    console.log('Apostei que o flamengo ganha da LDU hoje!')
 } else {
-    console.log('Ele foi demitido.')
+    console.log('Apostei que o Flamengo não vai ganhar hoje. ')
 }
