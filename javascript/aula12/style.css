@@ -1,0 +1,28 @@
+button {
+    width: 200px;
+    height: 56px;
+    font-size: 22px;
+    border: none;
+    transition: all .3s ease;
+}
+
+button.active {
+    background-color: black;
+    color: white;
+}
+
+html {
+    background-color: #ffffff;
+    color: #000000;
+    transition: all .3s ease;
+}
+
+html.theme-black {
+    background-color: #000000;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
