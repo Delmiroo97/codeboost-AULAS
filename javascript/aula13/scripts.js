@@ -1,4 +1,4 @@
-// mapeando o o id do Botão
+// mapeando o id do Botão
 const button = document.getElementById('js-btn');
 // const htlmDocument = document.documentElement; 
 
